@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
-import Board, { moveCard } from "@lourenci/react-kanban";
-import "@lourenci/react-kanban/dist/styles.css";
+import Board, { moveCard } from "@asseinfo/react-kanban";
+import "@asseinfo/react-kanban/dist/styles.css";
 import AppContext from "../context/AppContext";
 import ModalCreateColumn from "./Modals/ModalCreateColumn";
 import ThreeDots from "../icons/ThreeDots";

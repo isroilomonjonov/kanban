@@ -7,8 +7,8 @@ export default function ExampleModal({ close ,id}) {
   const ctx = useContext(AppContext);
 
   const fn = (data) => {
-    const board={id:Date.now().toString(),...data,href:`/${data.name.trim().replaceAll(' ','').toLowerCase()}`}
-   !id&&ctx.addBoard(board);
+    const board={id:Date.now().toString(),...data,href:`/${data.name.trim().replaceAll(' ','').toLowerCase()}${Date.now().toString()}`}
+   !id&&data.name.length>0&&ctx.addBoard(board);
    id&&ctx.updateBoard(id,data);
     close()
   };

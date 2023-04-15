@@ -47,7 +47,7 @@ const defaultAppState = {
       cards: [
         {
           id: 4,
-          name: "Dashboard",
+          title: "Dashboard",
           description: "Dashboard",
           subtasks: {
             name: "Dashboard",
@@ -62,7 +62,7 @@ const defaultAppState = {
       cards: [
         {
           id: 5,
-          name: "Dashboard",
+          title: "Dashboard",
           description: "Dashboard",
           subtasks: {
             name: "Dashboard",
@@ -70,7 +70,7 @@ const defaultAppState = {
         },
         {
           id: 6,
-          name: "Dashboard",
+          title: "Dashboard",
           description: "Dashboard",
           subtasks: {
             name: "Dashboard",
